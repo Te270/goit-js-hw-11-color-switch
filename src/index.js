@@ -22,5 +22,5 @@ refs.startBtn.addEventListener('click', () => {
 refs.stopBtn.addEventListener('click', () => {
   clearInterval(intervalId);
   // bodyRef.style.backgroundColor = 'pink';
-  refs.stopBtn.disabled = false;
+  refs.startBtn.disabled = false;
 });
